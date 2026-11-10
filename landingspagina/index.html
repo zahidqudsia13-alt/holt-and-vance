@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Holt &amp; Vance · Built to Last</title>
+  <meta name="description" content="Holt & Vance Eau de Parfum. Noir en Amber: twee geuren voor wie nooit de makkelijke weg kiest. Schrijf je in en join the ride.">
+  <meta name="theme-color" content="#1A1A1A">
+  <meta property="og:title" content="Holt & Vance · Built to Last">
+  <meta property="og:description" content="A scent for those who never take the easy road.">
+  <meta property="og:image" content="assets/img/hero-poster.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231A1A1A'/%3E%3Ctext x='32' y='44' font-family='Impact,sans-serif' font-size='30' fill='%23C8963E' text-anchor='middle'%3EH%26V%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Barlow:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <a class="skip" href="#join">Ga naar de inschrijving</a>
+
+  <!-- NAVIGATIE -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="Holt &amp; Vance, naar boven">HOLT <span>&amp;</span> VANCE</a>
+    <nav class="nav__links" aria-label="Hoofdnavigatie">
+      <a href="#verhaal">Verhaal</a>
+      <a href="#geuren">Geuren</a>
+      <a href="#onderweg">Onderweg</a>
+    </nav>
+    <a class="btn btn--ghost btn--sm" href="#join">Join the ride</a>
+  </header>
+
+  <main id="top">
+    <!-- 1. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <video class="hero__video" autoplay muted playsinline preload="auto" poster="assets/img/hero-poster.jpg" aria-hidden="true">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <!-- verschijnt als de video gedaan is: zelfde plaats als de eindtitel in de video, maar donker op de rook -->
+      <div class="hero__plain" aria-hidden="true"></div>
+      <div class="hero__endwrap" aria-hidden="true"><p class="hero__endtext"><span class="l1">500 km later.</span><span class="l2">Still there.</span></p></div>
+      <button class="sound hero__sound" id="hero-sound" type="button" aria-pressed="false">
+        <span class="sound__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="sound__label">Geluid aan</span>
+      </button>
+
+      <div class="hero__inner">
+        <p class="eyebrow reveal">Eau de Parfum · Noir &amp; Amber · 50 ml</p>
+        <!-- titel enkel voor schermlezers en zoekmachines; visueel spreekt de video ("500 km later. Still there.") -->
+        <h1 class="visually-hidden" id="hero-title">Holt &amp; Vance · Built to last.</h1>
+        <div class="hero__bottom">
+          <p class="hero__slogan reveal">A scent for those who never take the easy road.</p>
+          <div class="hero__cta reveal">
+            <a class="btn btn--amber" href="#join">Join the ride <span aria-hidden="true">→</span></a>
+            <a class="link-arrow" href="#geuren">Ontdek de geuren</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__ride" aria-hidden="true">
+        <span>00:40 — Koude start · Noir</span>
+        <span class="hero__track"><i></i></span>
+        <span>19:50 — Einde van de rit · Amber</span>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Built for the long road</span><b>✕</b><span>Noir</span><b>✕</b><span>Amber</span><b>✕</b><span>Asfalt &amp; amber</span><b>✕</b>
+        <span>Built for the long road</span><b>✕</b><span>Noir</span><b>✕</b><span>Amber</span><b>✕</b><span>Asfalt &amp; amber</span><b>✕</b>
+      </div>
+    </div>
+
+    <!-- 2. BRAND STORY -->
+    <section class="story" id="verhaal" aria-labelledby="story-title">
+      <div class="container story__grid">
+        <div class="story__text">
+          <p class="kicker reveal"><span>01</span> Het verhaal</p>
+          <h2 class="h2 reveal" id="story-title">Born on the<br>long way round.</h2>
+          <p class="lead reveal">Holt &amp; Vance begon niet in een lab, maar onderweg. Op de motor, op een bergpas, rond een kampvuur ver van alles. Een paar avonturiers, een lege tank en een avond die langer duurde dan gepland.</p>
+          <p class="reveal">Wat bleef hangen was niet het uitzicht, maar de geur. Nat asfalt bij het vertrek. Warm leer, stof en houtrook bij aankomst. Daar draait alles om: een parfum dat aanvoelt als goede uitrusting.</p>
+          <p class="reveal">Voor wie liever één goed ding koopt dan tien middelmatige. Een leren jas die mooier wordt met de jaren, een horloge dat je nooit afdoet, gereedschap dat een leven meegaat. Eerlijk, functioneel en tijdloos. Geen glitter, geen beloftes die na een uur verdampen. Eén geur die de hele tocht blijft.</p>
+          <ul class="madefor reveal" aria-label="Gemaakt voor">
+            <li>Motorrijders</li><li>Trekkers &amp; kampeerders</li><li>Bergen &amp; open wegen</li><li>Wie koopt voor het leven</li>
+          </ul>
+          <p class="signature reveal">— Holt &amp; Vance, ergens tussen twee tankstops</p>
+        </div>
+
+        <div class="story__media">
+          <figure class="frame frame--tall reveal">
+            <img src="assets/img/sfeer-amber-handschoen.jpg" alt="Rijder in leren jas trekt zijn handschoenen aan naast een motor in het avondlicht" loading="lazy" width="900" height="1600">
+            <figcaption>19:42 · Handschoenen aan</figcaption>
+          </figure>
+          <figure class="frame frame--offset reveal">
+            <img src="assets/img/sfeer-noir-bochten.jpg" alt="Motor op een kronkelende bergweg tussen dennen en mist" loading="lazy" width="900" height="1600">
+            <figcaption>06:15 · Into the mist</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="container pillars">
+        <article class="pillar reveal">
+          <span class="pillar__no">01</span>
+          <h3>Freedom</h3>
+          <p>Geen route, geen planning. Alleen de weg voor je en de tijd die je zelf kiest. Vrijheid ruikt naar koude lucht om zes uur 's ochtends.</p>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar__no">02</span>
+          <h3>Adventure</h3>
+          <p>Op twee wielen, te voet of met een rugzak vol kampeerspul. Regen, stof en kou horen erbij. Wij maken geuren voor wie het avontuur opzoekt, niet voor wie het vermijdt.</p>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar__no">03</span>
+          <h3>Individuality</h3>
+          <p>Niet voor iedereen, en dat is de bedoeling. Holt &amp; Vance draag je op je eigen manier, net zoals je je eigen route kiest.</p>
+        </article>
+      </div>
+
+      <blockquote class="quote container reveal">
+        <p>The road leaves a mark.<br><span>So should you.</span></p>
+      </blockquote>
+    </section>
+
+    <!-- 3a. GEUREN -->
+    <section class="scents" id="geuren" aria-labelledby="scents-title">
+      <div class="container scents__head">
+        <p class="kicker reveal"><span>02</span> Twee geuren, één rit</p>
+        <h2 class="h2 reveal" id="scents-title">From cold start<br>to last light.</h2>
+      </div>
+
+      <div class="scents__grid">
+        <article class="scent scent--noir reveal">
+          <div class="scent__img">
+            <img src="assets/img/noir-weg.jpg" alt="Holt &amp; Vance Noir fles midden op een lege natte weg in de schemering" loading="lazy" width="900" height="1600">
+          </div>
+          <div class="scent__body">
+            <p class="scent__time">00:40 — Koude start</p>
+            <h3 class="scent__name">Noir</h3>
+            <p>Voor de rit of tocht die begint als de rest nog slaapt. Koel, donker en scherp, zoals de eerste kilometers op nat asfalt of een bergpad in de mist.</p>
+            <dl class="notes">
+              <div><dt>Top</dt><dd>Zwarte peper · Bergamot</dd></div>
+              <div><dt>Hart</dt><dd>Nat asfalt-accord · Vetiver</dd></div>
+              <div><dt>Basis</dt><dd>Zwart leer · Ceder</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="scent scent--amber reveal">
+          <div class="scent__img">
+            <img src="assets/img/amber-tank.jpg" alt="Holt &amp; Vance Amber fles op de tank van een oude motor bij zonsondergang" loading="lazy" width="922" height="1152">
+          </div>
+          <div class="scent__body">
+            <p class="scent__time">19:50 — Einde van de rit</p>
+            <h3 class="scent__name">Amber</h3>
+            <p>Voor het einde van de dag: de motor tikt af, de tent staat, het vuur brandt. Warm, rokerig en diep, zoals leer dat de hele dag in de zon lag.</p>
+            <dl class="notes">
+              <div><dt>Top</dt><dd>Houtrook · Kardemom</dd></div>
+              <div><dt>Hart</dt><dd>Tabaksblad · Amber</dd></div>
+              <div><dt>Basis</dt><dd>Warm leer · Benzoë</dd></div>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3b. FILM -->
+    <section class="film" aria-label="Campagnefilm">
+      <video class="film__video" id="film" muted loop playsinline preload="metadata" poster="assets/img/film-poster.jpg">
+        <source src="assets/video/film.mp4" type="video/mp4">
+      </video>
+      <div class="film__shade" aria-hidden="true"></div>
+      <div class="film__inner container">
+        <h2 class="film__title reveal">The long way up.<br><span>Still there.</span></h2>
+        <button class="sound" id="sound" type="button" aria-pressed="false">
+          <span class="sound__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="sound__label">Geluid aan</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 3c. ONDERWEG / VISUALS -->
+    <section class="road" id="onderweg" aria-labelledby="road-title">
+      <div class="container road__head">
+        <p class="kicker reveal"><span>03</span> Onderweg</p>
+        <h2 class="h2 reveal" id="road-title">Shot on the road.</h2>
+        <p class="road__intro reveal">Geen studio, geen witte achtergrond. Elke fles werd gefotografeerd waar ze thuishoort: op de tank, op de bergpas, in de garage en bij het kampvuur.</p>
+      </div>
+
+      <div class="container bento">
+        <figure class="bento__item bento__item--a reveal">
+          <img src="assets/img/noir-tank.jpg" alt="Noir fles op de natte tank van een motor in een stad bij nacht" loading="lazy" width="928" height="1152">
+          <figcaption><span>23:10</span> Rain on the tank. Streetlights on.</figcaption>
+        </figure>
+        <figure class="bento__item bento__item--b reveal">
+          <img src="assets/img/sfeer-amber-rit.jpg" alt="Motorrijder op een stoffig bergpad richting de ondergaande zon" loading="lazy" width="900" height="1600">
+          <figcaption><span>19:30</span> Dust behind. Sun ahead.</figcaption>
+        </figure>
+        <figure class="bento__item bento__item--c reveal">
+          <img src="assets/img/noir-garage.jpg" alt="Noir fles op een stalen werkbank in een donkere garage vol gereedschap" loading="lazy" width="736" height="1456">
+          <figcaption><span>23:50</span> Tools out. Lights on.</figcaption>
+        </figure>
+        <figure class="bento__item bento__item--d reveal">
+          <img src="assets/img/sfeer-amber-helm.jpg" alt="Versleten motorhelm op een stenen muur boven een kronkelend bergpad bij zonsondergang" loading="lazy" width="900" height="1600">
+          <figcaption><span>18:05</span> Helmet off. View on.</figcaption>
+        </figure>
+        <figure class="bento__item bento__item--e reveal">
+          <img src="assets/img/sfeer-noir-weg.jpg" alt="Motorrijder met koplamp op een natte weg in de schemering" loading="lazy" width="900" height="1600">
+          <figcaption><span>05:55</span> Rain on the road.</figcaption>
+        </figure>
+      </div>
+
+      <!-- Instagram-feed: gevuld vanuit de data in script.js -->
+      <div class="feed" aria-labelledby="feed-title">
+        <div class="container feed__head">
+          <h3 class="feed__title" id="feed-title">#BuiltToLast</h3>
+          <p>De campagne op Instagram · @holtandvance</p>
+        </div>
+        <div class="feed__viewport">
+          <ul class="feed__track" id="feed"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. NIEUWSBRIEF -->
+    <section class="join" id="join" aria-labelledby="join-title">
+      <div class="join__visual">
+        <img src="assets/img/amber-weg.jpg" alt="Amber fles midden op een lege weg richting de zonsondergang" loading="lazy" width="900" height="1600">
+        <p class="join__stamp">Holt &amp; Vance<br><span>Rider's list · Nº 001</span></p>
+      </div>
+
+      <div class="join__panel">
+        <p class="kicker"><span>04</span> De nieuwsbrief</p>
+        <h2 class="h2" id="join-title">Join the ride.</h2>
+        <p class="join__intro">Schrijf je in en hoor als eerste wanneer Noir en Amber de weg op gaan.</p>
+        <ul class="perks">
+          <li>Als eerste toegang bij de lancering</li>
+          <li>Routes, trektochten en verhalen van onderweg</li>
+          <li>Maximaal twee mails per maand, geen spam</li>
+        </ul>
+
+        <form class="form" id="signup" novalidate>
+          <div class="field">
+            <label for="voornaam">Voornaam</label>
+            <input id="voornaam" name="voornaam" type="text" autocomplete="given-name" placeholder="Bv. Alex" aria-describedby="voornaam-error" required>
+            <p class="field__error" id="voornaam-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="email">E-mailadres</label>
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="jij@voorbeeld.be" aria-describedby="email-error" required>
+            <p class="field__error" id="email-error" aria-live="polite"></p>
+          </div>
+          <div class="field field--check">
+            <input id="toestemming" name="toestemming" type="checkbox" aria-describedby="toestemming-error" required>
+            <label for="toestemming">Ja, ik wil de nieuwsbrief van Holt &amp; Vance ontvangen. Ik ga akkoord met de <button type="button" class="inline-link" data-open-privacy>privacyverklaring</button> en kan me op elk moment uitschrijven.</label>
+            <p class="field__error" id="toestemming-error" aria-live="polite"></p>
+          </div>
+          <button class="btn btn--amber btn--block" type="submit" id="submit">
+            <span class="btn__label">Join the ride</span> <span aria-hidden="true">→</span>
+          </button>
+          <p class="form__note">Demo voor een schoolproject: je gegevens worden niet verstuurd of opgeslagen.</p>
+        </form>
+
+        <div class="success" id="success" role="status" aria-live="polite" tabindex="-1" hidden>
+          <span class="success__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="48" height="48"><circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 25l7 7 13-15" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"/></svg>
+          </span>
+          <h3 class="success__title">Welcome on board, <span id="success-name">rider</span>.</h3>
+          <p>Je inschrijving is gelukt. Zodra Noir en Amber de weg op gaan, hoor je het als eerste. Tot op de weg.</p>
+          <button class="link-arrow" type="button" id="reset">Nog iemand inschrijven</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 5. FOOTER -->
+  <footer class="footer">
+    <div class="container footer__top">
+      <div>
+        <p class="footer__tag">Built for the long road.</p>
+        <a class="btn btn--ghost btn--sm" href="#join">Join the ride</a>
+      </div>
+      <nav class="footer__cols" aria-label="Footer">
+        <div>
+          <h4>Geuren</h4>
+          <a href="#geuren">Noir</a>
+          <a href="#geuren">Amber</a>
+        </div>
+        <div>
+          <h4>Merk</h4>
+          <a href="#verhaal">Het verhaal</a>
+          <a href="#onderweg">Onderweg</a>
+        </div>
+        <div>
+          <h4>Volg</h4>
+          <a href="#onderweg">Instagram</a>
+          <button type="button" class="footer__link" data-open-privacy>Privacy</button>
+        </div>
+      </nav>
+    </div>
+    <p class="footer__word" aria-hidden="true">HOLT &amp; VANCE</p>
+    <div class="container footer__bottom">
+      <p>© 2026 Holt &amp; Vance · Eau de Parfum</p>
+      <p>Fictief merk · Schoolproject Creative Automation · <a href="nieuwsbriefcampagne/">Nieuwsbriefcampagne &amp; flow</a></p>
+    </div>
+  </footer>
+
+  <!-- PRIVACY -->
+  <dialog class="privacy" id="privacy" aria-labelledby="privacy-title">
+    <h2 id="privacy-title">Privacyverklaring</h2>
+    <p>Holt &amp; Vance is een fictief merk, gemaakt voor een schoolproject. Dit formulier is een demo.</p>
+    <ul>
+      <li><strong>Wat we vragen:</strong> je voornaam en e-mailadres, enkel om je de nieuwsbrief te sturen.</li>
+      <li><strong>Wat we bewaren:</strong> niets. Op deze demopagina worden je gegevens niet verstuurd of opgeslagen.</li>
+      <li><strong>In een echte campagne:</strong> inschrijving via double opt-in, uitschrijven met één klik onderaan elke mail, en je gegevens worden nooit doorverkocht.</li>
+    </ul>
+    <button class="btn btn--amber btn--sm" type="button" id="privacy-close">Sluiten</button>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
